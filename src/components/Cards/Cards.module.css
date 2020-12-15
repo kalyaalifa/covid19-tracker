@@ -1,0 +1,25 @@
+.container{
+    margin: 50px 0; /*top-bottom left-right*/
+}
+
+.card {
+    margin: 0 2% !important; /*karena pakai materia ui jadi harus di kasih important biar jalan*/   
+}
+
+.infected{
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5) ; /*0 0 255 = biru , 0.5 = opacity*/
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5) ; /*0 0 255 = biru , 0.5 = opacity*/
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5) ; /*0 0 255 = biru , 0.5 = opacity*/
+}
+
+@media (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important; /*pakai important karna material ui*/
+    }
+}
